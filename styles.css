@@ -44,10 +44,18 @@ div.price{
 	font-size: 50px;
 	margin: 14px 0 0 20px;
 	position: absolute;
-
-    z-index: 3;
-
 }
+@-moz-document url-prefix() {
+      div.price{
+        color: white;
+		font-family: "Roboto";
+		font-size: 50px;
+		margin-top: -55px;
+		position: absolute;
+		margin-left: -220px;
+    }
+}
+
 h3{
 	color: #1a96bd;
 	font-size: 18px;
