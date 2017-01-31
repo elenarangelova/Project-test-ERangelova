@@ -1,0 +1,56 @@
+div.card{
+	width: 240px;
+	border: 1px solid #d4d4d4;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+}
+div.person-foto{
+	color: #1a96bd;
+	position: absolute;
+	vertical-align: top;
+
+}
+div.person-foto img{
+	vertical-align: top;
+	margin: 10px 10px 0 20px;
+	display: inline-block;
+	float: left;
+}
+div.person-foto span{
+	vertical-align: top;
+	margin-top: 10px;
+}
+div.excursion-image{
+	margin-top: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+
+div.name{
+	width: 150px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 10px;
+	font-family: "Verdana";
+	font-size: 11px;
+}
+div.price{
+	color: white;
+	font-family: "Roboto";
+	font-size: 50px;
+	margin: 14px 0 0 20px;
+	position: absolute;
+
+    z-index: 3;
+
+}
+h3{
+	color: #1a96bd;
+	font-size: 18px;
+	font-family: "Roboto";
+	padding: 0 30px 0 20px;
+}
